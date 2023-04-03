@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8" />
+        <link rel="shortcut icon" href="gato-bravo.png" type="image/x-icon" />
+        <title>Form</title>
+    </head>
+    <body>
+        <h1>Formulário no HTML</h1>
+        <form method="post" id="fContato" action="mailto:yasmim.castro2801@gmail.com">
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" size="20" />
+
+            <label for="sobrenome">Sobrenome:</label>
+            <input type="text" id="sobrenome" size="20" />
+
+            <br /><br />
+
+            <label for="email">E-mail:</label>
+            <input
+                type="email"
+                id="email"
+                size="50"
+                placeholder="email@email.com"
+                required="required"
+            />
+
+            <br /><br />
+
+            <p>Qual jogo você mais jogou?</p>
+
+            <input type="radio" name="ljogos" id="opc1" />
+            <label for="opc1">Sonic</label>
+            <br /><br />
+
+            <input type="radio" name="ljogos" id="opc2" />
+            <label for="opc2">Super Mario World</label>
+            <br /><br />
+
+            <input type="radio" name="ljogos" id="opc3" />
+            <label for="opc3">GOD 3</label>
+
+            <br /><br />
+
+            <p>Qual plataforma você joga?</p>
+
+            <input type="checkbox" name="lplataforma" id="po1">
+            <label for="po1">PlayStation</label>
+
+            <br /><br />
+
+            <input type="checkbox" name="lplataforma" id="po2">
+            <label for="po2">PC</label>
+
+            <br /><br />
+
+            <input type="checkbox" name="lplataforma" id="po3">
+            <label for="po3">Xbox</label>
+
+            <br /><br />
+
+            <input type="checkbox" name="lplataforma" id="po4">
+            <label for="po4">Outras</label>
+
+            <br /><br />
+
+            <label for="jogos">Selecione um jogo:</label>
+            <br /><br />
+            <select name="jogos" id="jogos">
+                <option value="selecione" disabled selected>
+                    Selecione um jogo
+                </option>
+                <option value="gtav">GTA - V</option>
+                <option value="nfs_4">NFS - 4</option>
+                <option value="candy_crush">Candy Crush</option>
+            </select>
+
+            <br /><br />
+
+            <label for="dlist">Escolha seu personagem favorito:</label>
+            <br /><br />
+            <input autocomplete="on" list="personagem" name="dlist" id="dlist" placeholder="Seu personagem">
+            <datalist id="personagem">
+                <option value="CJ"></option>
+                <option value="Princesa"></option>
+                <option value="Mario"></option>
+            </datalist>
+
+            <br /><br />
+            <label for="vperso">O quanto você gosta desse personagem?</label>
+            <br /><br />
+            0
+            <input type="range" name="vperso" id="vperso">
+            100
+
+            <br /><br />
+
+            <label for="message">Deixe sua sugestão de personagem:</label>
+            <br /><br />
+            <textarea name="message" id="message" cols="30" rows="10" placeholder="Escreva aqui!" required></textarea>
+
+            <br /><br />
+
+            <input type="submit" value="Enviar" />
+        </form>
+    </body>
+</html>

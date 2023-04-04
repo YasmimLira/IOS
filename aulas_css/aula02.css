@@ -1,0 +1,36 @@
+body {
+    background-color: #012340;      
+}
+
+h1 {
+    font-family: 'Space Mono', monospace;
+    background-color: #025939;
+    color: whitesmoke;
+    text-shadow: 6px 6px 3px #012340;
+}
+
+.h2{
+    font-family: 'Roboto Mono', monospace;
+    background-color: #04D939;
+    color: whitesmoke;
+    text-align: center;
+}
+
+ul {
+    font-family: 'Fira Code', monospace;
+    background-color: #03A63C;
+    color: whitesmoke;
+    list-style-type: none;
+}
+
+p {
+    font-family: 'Righteous', cursive;
+    text-indent: 2em;
+    color: #60BF81;
+}
+
+footer {
+    font-family: 'Courier New', Courier, monospace;
+    font-style: italic;
+    color: #60BF81;
+}

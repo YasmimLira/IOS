@@ -1,0 +1,39 @@
+body {
+    background-color: #012340;
+}
+#h1 {
+    font-family: 'Space Mono', monospace;
+    color: #03A63C;
+}
+
+.h2 {
+    font-family: 'Righteous', cursive;
+    color: #05a52d;
+}
+
+#imgGato {
+  width: 420px;
+  height: 420px;
+}
+
+figure {
+  width: 420px;
+  padding: 5px;
+  margin: auto;
+  border: 2px solid #ebd61b;
+}
+
+figcaption {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 10px;
+  text-align: start;
+  color: #03A63C;
+
+}
+
+footer {
+  color: #60BF81;
+  font-size: 0.75em;
+  font-style: italic;
+  font-family: "Courier New", Courier, monospace;
+}

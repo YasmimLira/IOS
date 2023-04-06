@@ -1,0 +1,24 @@
+body {
+    background-color: #012340;
+    background-image: url('/img/cateyes.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#h1 {
+    font-family: 'Space Mono', monospace;
+    color: #03A63C;
+}
+
+.h2 {
+    font-family: 'Righteous', cursive;
+    color: #05a52d;
+}
+
+footer {
+    color: #60BF81;
+    font-size: 0.75em;
+    font-style: italic;
+    font-family: "Courier New", Courier, monospace;
+  }
+  

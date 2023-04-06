@@ -1,0 +1,29 @@
+* {
+    background-color: rgb(99, 154, 236);
+}
+.exemplo {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-indent: 1.5em;
+    text-align: justify;
+    color: #d4f70e;
+}
+
+#h1 {
+    font-family: cursive;
+    font-size: 40px;
+    color: #f8e804;
+    text-align: center;
+    border-bottom: dotted 3px #4932ac;
+}
+
+h2.mudarH2{
+    font-family: serif;
+    text-align: center;
+    color: rgb(83, 0, 139);
+}
+
+article p {
+    background-color: #075ea5;
+    color: whitesmoke;
+}
+

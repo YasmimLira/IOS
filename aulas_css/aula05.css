@@ -1,0 +1,39 @@
+body {
+    background-color: #012340;
+    color: aliceblue;
+}
+
+#h1 {
+    font-family: 'Space Mono', monospace;
+    color: #03A63C;
+}
+
+.h2 {
+    font-family: 'Righteous', cursive;
+    color: #05a52d;
+}
+
+.div {
+    font-size: 2em;
+}
+
+p {
+    font-size: 2em;
+    /* 
+        Valor padrão:16px 
+        em: 16px * 2 = 32em 
+        rem: usa como base o valor padrão da raiz do elemento   
+    */
+    
+}
+
+.paragrafo {
+    font-size: 3rem;
+}
+
+footer {
+  color: #60BF81;
+  font-size: 0.75em;
+  font-style: italic;
+  font-family: "Courier New", Courier, monospace;
+}

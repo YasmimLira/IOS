@@ -1,0 +1,31 @@
+#dv1 {
+    background-color: #012340;
+    border: solid 1px;
+    height: 350px;
+    width: 350px;
+    margin: 5px;
+    float: left;
+}
+
+#dv2 {
+    background-color: #05a52d;
+    border: solid 1px;
+    height: 350px;
+    width: 350px;
+    margin: 5px;
+    float: left;
+}
+
+#dv3 {
+    background-color: #60BF81;
+    border: solid 1px;
+    height: 350px;
+    width: 350px;
+    margin: 5px;
+    float: right;
+}
+
+section {
+    border: #012340 solid 5px;
+    height: 362px;
+}

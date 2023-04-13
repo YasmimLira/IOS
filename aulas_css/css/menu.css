@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  background-color: #02529c;
+  text-align: start;
+}
+
+.container {
+    display: inline-block;
+}
+
+#logo {
+    float: start;
+    height: 1em;
+}
+
+img {
+  text-decoration: none;
+  background-color: #02529c;
+  height: 50px;
+  width: 50px;
+}
+
+.item {
+  display: inline-block;
+  color: white;
+  padding: 20px 16px;
+  text-decoration: none;
+}
+
+.item:hover {
+  background-color: #6e9fce;
+  color: black;
+}
+
+section {
+  background-image: url("../../img/gato.webp");
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+    /* nav > .logo:first-child {
+    display: inline-block;
+
+    } */

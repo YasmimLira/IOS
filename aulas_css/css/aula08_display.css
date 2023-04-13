@@ -1,0 +1,19 @@
+p {
+    color: red;
+}
+
+p.exemplo01 {
+    display: none;
+}
+
+p.exemplo02 {
+    display: inline;
+}
+
+p.exemplo03 {
+    display: block;
+}
+
+p.exemplo04 {
+    display: inline-block;
+}

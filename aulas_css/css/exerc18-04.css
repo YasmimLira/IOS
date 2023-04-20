@@ -1,0 +1,45 @@
+@charset "UTF-8";
+
+body {
+    background-color: #bee9be;
+}
+
+@media (max-width: 650px){
+    img {
+        display: none;
+    }
+    
+    body {
+        background-color: #55ce55;
+    }
+
+    h1, h2, p{
+        font-size: 1.4em;
+    }
+
+    h1 {
+        color: blue;
+    }
+    
+    h2 {
+        color: #eef12b;
+    }
+    
+    p {
+        color: whitesmoke;
+    }
+}
+
+h1 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+h2 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: darkgreen
+}
+
+img {
+    width: 100px;
+    float: right;
+}
